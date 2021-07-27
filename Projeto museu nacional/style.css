@@ -1,0 +1,197 @@
+/**** FORMATAÇOES GERAIS *****/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: url(imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/**** CABECALHO ****/
+
+header {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+header ul li {
+    display: inline;  
+    list-style-type: none; 
+}
+
+header li a  {
+    color: #af670a;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+header li a:hover  {
+    color: #07791f;
+}
+
+/***** PRINCIPAL ******/
+
+
+#principal { 
+    width: 710px;
+    float: left;
+}
+/**** CONTEUDO *****/
+
+#postagens h3 {
+    color: #07791f;
+    margin-bottom: 10px;
+}
+
+#postagens a {
+    color: #af670a;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+#postagens a:hover {
+    color: #07791f;
+
+}
+
+#postagens ul {
+    margin-left: 20px;
+}
+
+#postagens article {
+    width: 310px;
+    padding: 20px;
+    float: left;
+}
+
+
+/**** CONTEUDO LATERAL *****/
+
+#lateral { 
+    width: 350px;
+    float: right;
+    height: 100%;
+}
+
+/***** CONTEUDO VISITA ******/
+#visita {
+    background-color: #cdc8b1;
+    padding: 20px;
+}
+
+#visita h2 {
+    color: #af670a;
+    padding: 5px;
+}
+
+fieldset {
+    border:none;
+    padding: 10px;
+}
+legend {
+    display: none;
+}
+
+
+/**** CONTEUDO GALERIA FOTOS ****/
+
+#galeria-fotos {
+    padding: 20px;
+    background-color:#f0d9bace;
+}
+
+section#galeria-fotos a {
+    background: url(imagens/fundo-foto.png);
+    margin-bottom: 10px;
+    width: 126px;
+    height: 133px;
+}
+
+section article {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#galeria-fotos img {
+    padding: 17px;
+}
+
+#galeria-fotos h2 {
+    color: #af670a;
+    padding: 5px;
+}
+
+/*******   FORMULARIOS *********/
+input {
+    height: 20PX;
+    background: #FFF;
+    font-size: 1em;
+    width: 80px;
+}
+
+input.campo {
+    border: 1px solid #ada489;
+}
+
+input.botao {
+    background: #9b9271;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    cursor:pointer;
+    font-size: 1.2em;
+    border: 1px solid #ada489;
+    border-radius: 5px;
+}
+ 
+/***** RODAPE *****/
+
+footer section {
+    background: url(imagens/fundo-rodape.png) no-repeat center top;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.0em;
+    text-align: center;
+}
+
+footer #rodape li {
+    display: inline;
+}
+
+footer section a {
+    padding: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #af670a;
+}
+
+footer section a:hover {
+    text-decoration: underline;
+    color: #07791f;
+}
+
+footer section p {
+    padding: 4px 10px;
+}
+
+
+
+
+
+
+
+
